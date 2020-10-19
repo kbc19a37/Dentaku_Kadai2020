@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/operand1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#eeffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/operator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#ffeeff"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/operand2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#ffffee"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/buttonPadLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <ImageView
+        android:id="@+id/gifImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
